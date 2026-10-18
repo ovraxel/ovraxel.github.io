@@ -10,7 +10,7 @@ language: zh-TW
 timezone: Europe/Istanbul
 
 # URL（專案為 ovraxel.github.io，故 root 為 /）
-url: https://ovraxel.github.io
+url: https://demk.cloud-ip.cc
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
