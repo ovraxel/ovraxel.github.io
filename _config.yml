@@ -1,0 +1,24 @@
+title: 我的博客
+subtitle: ''
+description: '個人文章與筆記'
+author: Your Name
+language: zh-TW
+url: https://USERNAME.github.io/blog
+root: /blog/
+permalink: :year/:month/:day/:title/
+theme: landscape
+timezone: Asia/Taipei
+archive_generator:
+  per_page: 10
+category_generator:
+  per_page: 10
+tag_generator:
+  per_page: 10
+
+# RSS / Sitemap
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+sitemap:
+  path: sitemap.xml
