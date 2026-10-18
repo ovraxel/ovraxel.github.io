@@ -12,3 +12,12 @@ darkmode:
   enable: true
   button: true
   autoChangeMode: false
+
+search:
+  use: local_search
+
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
