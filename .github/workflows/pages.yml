@@ -30,20 +30,11 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Generate Hexo
         run: |
-          echo "Checking project files..."
-          pwd
-          ls -la
-
-          echo "Checking Hexo installation..."
-          npm ls hexo hexo-cli --depth=0
-
-          echo "Building website..."
-          ./node_modules/.bin/hexo clean
-          ./node_modules/.bin/hexo generate
-
-          echo "Checking generated website..."
+          npx hexo clean
+          npx hexo generate
           test -f public/index.html
-       - name: Upload Pages artifact
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
