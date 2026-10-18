@@ -83,3 +83,17 @@ ignore:
 
 # Extensions
 theme: butterfly
+
+# Plugins
+sitemap:
+  path: sitemap.xml
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: striptags
