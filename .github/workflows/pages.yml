@@ -29,10 +29,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Generate Hexo
-        run: |
-          npx hexo clean
-          npx hexo generate
-          test -f public/index.html
+        run: 
+             npx hexo clean
+             npx hexo generate
+             test -f public/index.html
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
