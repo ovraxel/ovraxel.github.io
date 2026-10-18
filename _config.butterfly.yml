@@ -1,0 +1,14 @@
+# Butterfly 主題設定（覆蓋主題預設值，只需列出要修改的項目）
+# 完整選項請參考 Butterfly 官方文件
+
+menu:
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Tags: /tags/ || fas fa-tags
+  Categories: /categories/ || fas fa-folder-open
+  About: /about/ || fas fa-heart
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
