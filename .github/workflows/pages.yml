@@ -1,32 +1,41 @@
-name: Hexo Pages
+name: Pages
 
 on:
   push:
     branches:
-      - main
-
-permissions:
-  contents: read
+      - main          # 改成你的默认分支名
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
-          submodules: recursive
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive   # 如果主题是 submodule 必须加
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: npm
-      - name: Install dependencies
+          node-version: "20"
+
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+
+      - name: Install Dependencies
         run: npm install
-      - name: Generate Hexo
-        run: npm run build
+
+      - name: Build
+        run: npm run build   # 等价于 hexo generate
+
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
