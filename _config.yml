@@ -3,8 +3,8 @@ subtitle: ''
 description: '個人文章與筆記'
 author: Your Name
 language: zh-TW
-url: https://USERNAME.github.io/blog
-root: /blog/
+url: https://USERNAME.github.io
+root: /
 permalink: :year/:month/:day/:title/
 theme: landscape
 timezone: Asia/Taipei
