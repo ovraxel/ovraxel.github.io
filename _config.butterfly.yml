@@ -21,3 +21,22 @@ wordcount:
   post_wordcount: true
   min2read: true
   total_wordcount: true
+
+# 護眼配色：鼠尾草綠 + 暖棕
+theme_color:
+  enable: true
+  main: "#6B8E5A"
+  paginator: "#8B6F47"
+  button_hover: "#B07D4F"
+  text_selection: "#A8C686"
+  link_color: "#7A8F6A"
+  meta_color: "#8A8578"
+  hr_color: "#C9D6B5"
+  code_foreground: "#A0522D"
+  code_background: "rgba(139, 111, 71, .08)"
+  toc_color: "#6B8E5A"
+  blockquote_padding_color: "#8FAE7A"
+  blockquote_background_color: "#8FAE7A"
+
+# 整體背景改成偏暖的米色，比純白柔和
+background: "#F3EFE3"
