@@ -43,4 +43,4 @@ background: "#8B6B4E"
 
 inject:
   head:
-    - '<style>:root:not([data-theme=dark]){--card-bg:#EFE6CC;--font-color:#3B352B;--text-highlight-color:#2B2418;--card-meta:#6B6252;--text-bg-hover:#E3D8B8;--hl-color:#3B352B;--hl-bg:#F4EBD3;--hltools-bg:#E3D8B8;--hltools-color:#6B5A3C;--hlnumber-bg:#F4EBD3;--hlnumber-color:#A08F6A;}</style>'
+    - '<style>:root:not([data-theme=dark]){--card-bg:#EFE6CC;--font-color:#3B352B;--text-highlight-color:#2B2418;--card-meta:#6B6252;--text-bg-hover:#E3D8B8;--hl-color:#3B352B;--hl-bg:#F4EBD3;--hltools-bg:#E3D8B8;--hltools-color:#6B5A3C;--hlnumber-bg:#F4EBD3;--hlnumber-color:#A08F6A;--sidebar-bg:#E3D8B8;--sidebar-menu-bg:#EFE6CC;--sidebar-menu-color:#3B352B;}:root:not([data-theme=dark]) #sidebar #sidebar-menus{background:#E3D8B8;}:root:not([data-theme=dark]) #sidebar .menus_items{background:#EFE6CC;border-color:#D6C9A3;}</style>'
