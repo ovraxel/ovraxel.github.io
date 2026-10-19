@@ -40,11 +40,11 @@
 
       fixed: true,
       mini: true,
-      autoplay: true,
+      autoplay: false,
 
       loop: 'all',
       order: 'random',
-      preload: 'metadata',
+      preload: 'none',
 
       volume: 0.35,
       mutex: true,
