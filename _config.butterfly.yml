@@ -46,6 +46,9 @@ background: "#8B6B4E"
 
 inject:
   head:
+    # ==========================================
+    # 深色護眼主題：橄欖綠 + 暖棕
+    # ==========================================
     - |
       <meta name="theme-color" content="#222D22">
       <style>
@@ -54,31 +57,38 @@ inject:
       :root:not([data-theme='dark']) {
         color-scheme: dark;
 
+        /* 基礎配色 */
         --card-bg: #302D1D;
         --font-color: #E8E3D5;
         --text-highlight-color: #F5EBD6;
         --card-meta: #C5C9B6;
 
+        /* 背景與按鈕 */
         --global-bg: #8B6B4E;
         --btn-bg: #657F55;
         --btn-hover-color: #E8E3D5;
 
+        /* 引用區塊 */
         --blockquote-color: #B8D5A8;
         --blockquote-bg: #41412A;
 
+        /* 分隔線 */
         --hr-border: #657A55;
         --hr-before-color: #D6E3C6;
 
+        /* 側邊欄 */
         --text-bg-hover: #41412A;
         --sidebar-bg: #302D1D;
         --sidebar-menu-bg: #41412A;
         --sidebar-menu-color: #E8E3D5;
       }
 
+      /* 網站背景 */
       body {
         background: #8B6B4E !important;
       }
 
+      /* 文章及側邊欄卡片 */
       #aside-content .card-widget,
       #recent-posts > .recent-post-item,
       #post,
@@ -90,10 +100,12 @@ inject:
         color: #E8E3D5 !important;
       }
 
+      /* 頂部導航 */
       #page-header.nav-fixed #nav {
         background: #222D22 !important;
       }
 
+      /* 文章引用區塊 */
       #article-container blockquote {
         background: #41412A !important;
         border-left: 6px solid #8FAE7A !important;
@@ -104,12 +116,35 @@ inject:
         color: #B8D5A8 !important;
       }
 
+      /* 右側功能按鈕 */
       #rightside > div > button,
       #rightside > div > a {
         background: #657F55 !important;
         color: #E8E3D5 !important;
       }
       </style>
+
+    # ==========================================
+    # APlayer 音樂播放器樣式
+    # ==========================================
+
+    # APlayer 官方 CSS
+    - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">'
+
+    # 自訂深色音樂播放器
+    - '<link rel="stylesheet" href="/css/music.css">'
+
+  bottom:
+    # ==========================================
+    # APlayer + Cloudflare R2 音樂列表
+    # ==========================================
+
+    # APlayer 核心
+    - '<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>'
+
+    # 自訂 R2 音樂播放列表
+    - '<script src="/js/music.js"></script>'
+
 
 avatar:
   img: /img/avatar.png
