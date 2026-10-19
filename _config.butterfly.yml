@@ -50,3 +50,64 @@ avatar:
   effect: false
 
 favicon: /img/favicon.ico
+
+
+# 文章目錄
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false
+  scroll_percent: true
+
+# 右下角返回頂部顯示閱讀進度
+rightside_scroll_percent: true
+
+# 文章過期提醒
+noticeOutdate:
+  enable: true
+  style: flat
+  limit_day: 365
+  position: top
+  message_prev: 本文距離上次更新已超過
+  message_next: 天，部分內容可能已發生變化。
+
+# 相關文章推薦
+related_post:
+  enable: true
+  limit: 4
+  date_type: created
+
+# 文章版權
+post_copyright:
+  enable: true
+  decode: false
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# 複製功能
+copy:
+  enable: true
+  copyright:
+    enable: false
+
+# 閱讀體驗
+beautify:
+  enable: true
+  field: post
+
+# 簡潔外觀
+rounded_corners_ui: true
+preloader:
+  enable: false
+
+# 減少不必要的動畫
+enter_transitions: false
+
+# 本地搜尋補充設定
+# 已有 search 配置，請合併到原區塊
+# local_search:
+#   preload: false
+#   top_n_per_article: 2
+#   unescape: false
