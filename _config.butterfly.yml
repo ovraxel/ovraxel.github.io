@@ -8,6 +8,9 @@ menu:
   分類: /categories/ || fas fa-folder-open
   關於: /about/ || fas fa-heart
 
+# 預設深色模式
+display_mode: dark
+
 darkmode:
   enable: true
   button: true
