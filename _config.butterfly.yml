@@ -46,7 +46,70 @@ background: "#8B6B4E"
 
 inject:
   head:
-    - '<style>:root:not([data-theme=dark]){--card-bg:#EFE6CC;--font-color:#3B352B;--text-highlight-color:#2B2418;--card-meta:#6B6252;--text-bg-hover:#E3D8B8;--hl-color:#3B352B;--hl-bg:#F4EBD3;--hltools-bg:#E3D8B8;--hltools-color:#6B5A3C;--hlnumber-bg:#F4EBD3;--hlnumber-color:#A08F6A;--sidebar-bg:#E3D8B8;--sidebar-menu-bg:#EFE6CC;--sidebar-menu-color:#3B352B;}:root:not([data-theme=dark]) #sidebar #sidebar-menus{background:#E3D8B8;}:root:not([data-theme=dark]) #sidebar .menus_items{background:#EFE6CC;border-color:#D6C9A3;}</style>'
+    - |
+      <meta name="theme-color" content="#222D22">
+      <style>
+      :root,
+      :root[data-theme='dark'],
+      :root:not([data-theme='dark']) {
+        color-scheme: dark;
+
+        --card-bg: #302D1D;
+        --font-color: #E8E3D5;
+        --text-highlight-color: #F5EBD6;
+        --card-meta: #C5C9B6;
+
+        --global-bg: #8B6B4E;
+        --btn-bg: #657F55;
+        --btn-hover-color: #E8E3D5;
+
+        --blockquote-color: #B8D5A8;
+        --blockquote-bg: #41412A;
+
+        --hr-border: #657A55;
+        --hr-before-color: #D6E3C6;
+
+        --text-bg-hover: #41412A;
+        --sidebar-bg: #302D1D;
+        --sidebar-menu-bg: #41412A;
+        --sidebar-menu-color: #E8E3D5;
+      }
+
+      body {
+        background: #8B6B4E !important;
+      }
+
+      #aside-content .card-widget,
+      #recent-posts > .recent-post-item,
+      #post,
+      #page,
+      #archive,
+      #tag,
+      #category {
+        background: #302D1D !important;
+        color: #E8E3D5 !important;
+      }
+
+      #page-header.nav-fixed #nav {
+        background: #222D22 !important;
+      }
+
+      #article-container blockquote {
+        background: #41412A !important;
+        border-left: 6px solid #8FAE7A !important;
+        color: #B8D5A8 !important;
+      }
+
+      #article-container blockquote p {
+        color: #B8D5A8 !important;
+      }
+
+      #rightside > div > button,
+      #rightside > div > a {
+        background: #657F55 !important;
+        color: #E8E3D5 !important;
+      }
+      </style>
 
 avatar:
   img: /img/avatar.png
