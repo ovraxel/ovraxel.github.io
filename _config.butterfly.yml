@@ -2,11 +2,11 @@
 # 完整選項請參考 Butterfly 官方文件
 
 menu:
-  Home: /首頁/ || fas fa-home
-  Archives: /存檔/ || fas fa-archive
-  Tags: /標籤/ || fas fa-tags
-  Categories: /分類/ || fas fa-folder-open
-  About: /關於/ || fas fa-heart
+  首頁: / || fas fa-home
+  存檔: /archives/ || fas fa-archive
+  標籤: /tags/ || fas fa-tags
+  分類: /categories/ || fas fa-folder-open
+  關於: /about/ || fas fa-heart
 
 darkmode:
   enable: true
