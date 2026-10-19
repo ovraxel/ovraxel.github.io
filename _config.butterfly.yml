@@ -29,7 +29,7 @@ theme_color:
   paginator: "#8B6F47"
   button_hover: "#B07D4F"
   text_selection: "#A8C686"
-  link_color: "#7A8F6A"
+  link_color: "#3F6B3A"
   meta_color: "#8A8578"
   hr_color: "#C9D6B5"
   code_foreground: "#A0522D"
@@ -39,8 +39,8 @@ theme_color:
   blockquote_background_color: "#8FAE7A"
 
 # 整體背景改成偏暖的米色，比純白柔和
-background: "#6B4E37"
+background: "#8B6B4E"
 
 inject:
   head:
-    - '<style>:root:not([data-theme=dark]){--card-bg:#F8F6EC;}</style>'
+    - '<style>:root:not([data-theme=dark]){--card-bg:#EFE6CC;--font-color:#3B352B;--text-highlight-color:#2B2418;--card-meta:#6B6252;--text-bg-hover:#E3D8B8;--hl-color:#3B352B;--hl-bg:#F4EBD3;--hltools-bg:#E3D8B8;--hltools-color:#6B5A3C;--hlnumber-bg:#F4EBD3;--hlnumber-color:#A08F6A;}</style>'
