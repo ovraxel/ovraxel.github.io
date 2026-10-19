@@ -1,0 +1,51 @@
+
+/* Butterfly R2 Music Player */
+
+.aplayer.aplayer-fixed {
+  max-width: 360px;
+  z-index: 9999;
+}
+
+.aplayer,
+.aplayer.aplayer-fixed,
+.aplayer .aplayer-info,
+.aplayer .aplayer-list {
+  background: #302D1D !important;
+  color: #E8E3D5 !important;
+}
+
+.aplayer .aplayer-info
+.aplayer-music .aplayer-title {
+  color: #F5EBD6 !important;
+}
+
+.aplayer .aplayer-info
+.aplayer-music .aplayer-author {
+  color: #B8D5A8 !important;
+}
+
+.aplayer .aplayer-list ol li {
+  border-top: 1px solid #41412A !important;
+  color: #E8E3D5 !important;
+}
+
+.aplayer .aplayer-list ol li:hover,
+.aplayer .aplayer-list ol li.aplayer-list-light {
+  background: #41412A !important;
+}
+
+.aplayer .aplayer-info
+.aplayer-controller .aplayer-time {
+  color: #C5C9B6 !important;
+}
+
+.aplayer .aplayer-info
+.aplayer-controller .aplayer-time
+.aplayer-icon path {
+  fill: #B8D5A8 !important;
+}
+
+.aplayer .aplayer-lrc:before,
+.aplayer .aplayer-lrc:after {
+  display: none !important;
+}
