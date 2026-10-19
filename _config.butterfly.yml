@@ -39,8 +39,7 @@ theme_color:
   blockquote_background_color: "#8FAE7A"
 
 # 整體背景改成偏暖的米色，比純白柔和
-# background: "#C4CDA8"
-background: "#6B4E37"
+background: "#C4CDA8"
 
 inject:
   head:
