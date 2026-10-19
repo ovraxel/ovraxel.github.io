@@ -1,11 +1,17 @@
 # Hexo 設定檔 — 文件：https://hexo.io/docs/configuration.html
 
 # Site
-title: Ovraxel
-subtitle: ''
-description: ''
+title: 荒原燈塔
+subtitle: 在喧囂中保持清醒，在荒原上守望自由。
+description: 閱讀經典，審視權力，思考自由，探尋人性。記錄思想、文學、歷史與獨立思考。
 keywords:
-author: Ovraxel
+  - 荒原燈塔
+  - 獨立思考
+  - 經典閱讀
+  - 自由思想
+  - 哲學
+  - 文學
+author: '知晦'
 language: zh-TW
 timezone: Europe/Istanbul
 
