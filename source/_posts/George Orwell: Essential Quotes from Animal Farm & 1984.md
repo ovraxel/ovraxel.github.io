@@ -1,4 +1,8 @@
-# George Orwell: Essential Quotes from *Animal Farm* & *1984*
+---
+title: 奧威爾經典語錄精選
+---
+
+# 奧威爾經典語錄精選
 
 ---
 
