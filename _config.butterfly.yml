@@ -15,6 +15,9 @@ darkmode:
   enable: true
   button: true
   autoChangeMode: false
+# PJAX 跨頁切換
+pjax:
+  enable: true
 
 search:
   use: local_search
