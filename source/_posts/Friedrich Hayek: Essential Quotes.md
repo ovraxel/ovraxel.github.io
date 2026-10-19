@@ -1,6 +1,8 @@
 ---
 title: 海耶克經典語錄精選
 date: 2026-10-19
+permalink: 2026-10-19-friedrich-hayek-quotes.md
+---
 tags:
   - 海耶克
   - 經典語錄
