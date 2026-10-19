@@ -1,6 +1,7 @@
 ---
 title: 奧威爾經典語錄精選
 date: 2026-10-19
+permalink: /2026/10/19/george-orwell-quotes/
 categories:
   - 閱讀筆記
 tags:
