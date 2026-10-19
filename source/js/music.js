@@ -10,10 +10,10 @@
       cover: MUSIC_HOST + '/covers/Elton John – Candle In The Wind 1997.JPG'
     },
     {
-      name: '第二首歌曲',
-      artist: '演唱者',
-      url: MUSIC_HOST + '/audio/002.mp3',
-      cover: MUSIC_HOST + '/covers/002.jpg'
+      name: 'Thème de Rémi - Générique début',
+      artist: 'Carolin Petit',
+      url: MUSIC_HOST + '/audio/Carolin Petit – Thème de Rémi - Générique début.mp3',
+      cover: MUSIC_HOST + '/covers/Carolin Petit – Thème de Rémi - Générique début.jpg'
     },
     {
       name: '第三首歌曲',
