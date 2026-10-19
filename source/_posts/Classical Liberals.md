@@ -1,6 +1,7 @@
 ---
 title: 自由主義經典人物精選語錄
 date: 2026-10-19
+permalink: /2026/10/19/classical-liberals-quotes/
 categories:
   - 閱讀筆記
 tags:
