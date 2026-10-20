@@ -240,3 +240,9 @@ lazyload:
   enable: true
   native: true
   field: site
+
+footer:
+  custom_text: '<a href="/atom.xml" target="_blank"><i class="fas fa-rss" style="color:#F2A944"></i> RSS</a> &nbsp;|&nbsp; <a href="/sitemap.xml" target="_blank">SITEMAP</a>'
+
+social:
+  fas fa-rss: /atom.xml || RSS || '#F2A944'
