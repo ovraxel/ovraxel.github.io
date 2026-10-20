@@ -215,3 +215,20 @@ enter_transitions: false
 #   preload: false
 #   top_n_per_article: 2
 #   unescape: false
+
+
+comments:
+  use: Giscus
+  text: true
+  lazyload: false
+  count: false
+  card_post_count: false
+
+giscus:
+  repo: ovraxel/ovraxel.github.io
+  repo_id: R_kgDOVN9eKw
+  category_id: DIC_kwDOVN9eK84DJG-I
+  light_theme: light
+  dark_theme: dark
+  js:
+  option:
