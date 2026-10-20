@@ -232,3 +232,8 @@ giscus:
   dark_theme: dark
   js:
   option:
+
+lazyload:
+  enable: true
+  native: true
+  field: site
