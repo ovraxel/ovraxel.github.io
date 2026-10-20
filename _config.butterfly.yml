@@ -19,6 +19,9 @@ darkmode:
 pjax:
   enable: true
 
+
+cloudflare_analytics: 08d498e5eac44bb8b60a9e12463403de
+
 search:
   use: local_search
 
