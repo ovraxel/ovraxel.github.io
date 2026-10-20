@@ -1,0 +1,28 @@
+main {
+  --color-fg-default: #3B352B;
+  --color-fg-muted: #5E5545;
+  --color-fg-subtle: #7A705C;
+  --color-canvas-default: #F6EFDA;
+  --color-canvas-overlay: #F6EFDA;
+  --color-canvas-inset: #E3D8B8;
+  --color-canvas-subtle: #E8DDBE;
+  --color-border-default: #CDBF98;
+  --color-border-muted: #DCCFAA;
+  --color-accent-fg: #3F6B3A;
+  --color-accent-emphasis: #5F8D4E;
+  --color-accent-muted: rgb(95 141 78 / 30%);
+  --color-accent-subtle: #E3EBCB;
+  --color-btn-text: #3B352B;
+  --color-btn-bg: #E8DDBE;
+  --color-btn-border: rgb(90 70 40 / 25%);
+  --color-btn-hover-bg: #DFD2AE;
+  --color-btn-hover-border: rgb(90 70 40 / 30%);
+  --color-btn-active-bg: #D6C8A0;
+  --color-btn-selected-bg: #D6C8A0;
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #4F7040;
+  --color-btn-primary-border: rgb(60 45 25 / 25%);
+  --color-btn-primary-hover-bg: #425F35;
+  --color-btn-primary-selected-bg: #3A5530;
+  --color-btn-primary-disabled-bg: #A9BC9A;
+}
