@@ -228,7 +228,7 @@ giscus:
   repo: ovraxel/ovraxel.github.io
   repo_id: R_kgDOVN9eKw
   category_id: DIC_kwDOVN9eK84DJG-I
-  light_theme: light
+  light_theme: https://demk.cloud-ip.cc/css/giscus-warm.css
   dark_theme: dark
   js:
   option:
